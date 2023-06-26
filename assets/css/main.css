@@ -2687,7 +2687,7 @@ hr {
 .hero-main-slider .slide-titles .subtitle {
 	display: block;
 	margin: 0 0 35px 0;
-	/* max-width: 480px; */
+	max-width: 750px; 
 	opacity: 0.8;
 }
 
