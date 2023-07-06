@@ -87,7 +87,20 @@ img{
 	margin:50px 0px;
 	padding:0 20px;
 }
-
+.image-animation{
+	animation-name: example;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1s;
+	animation-delay: 100ms;
+}
+@keyframes example {
+	from{
+		transform: scaleY(0);
+	}
+	to{
+		transform: scaleY(1);
+	}
+}
 @media(max-width:968px){
 	.text-container{
 		margin:0;
